@@ -1,0 +1,94 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Firebase related
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+
+# Generated files
+flutter_export_environment.sh
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# macOS related
+**/Pods/
+/*.xcworkspace
+
+# IDE Related
+.vscode/
+.idea/
+
+# Temporary system files
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# Log files
+*.log
+
+# Secrets and environment files
+.env
+.env.*
+*.keystore
+*.jks
+*.p8
+*.pem
+*.mobileprovision
+
+# CI/CD related
+firebase.json
+service-account.json
+
+# Temporary test outputs
+test-output/
+coverage/
+
+# Node-related (if using any Node dependencies)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+lib/firebase_options.dart
